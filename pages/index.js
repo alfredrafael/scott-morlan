@@ -10,40 +10,58 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Scott Morlan Website</a>
-        </h1>
+        <h1 className={styles.title}>Morlan's Website Planning</h1>
 
         <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
+          A quick exploration of your website's posibilities/structure before we
+          meet via zoom!
         </p>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
           <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
+            href="https://alfredodeveloper.com/resume"
+            target="_blank nooppener noreferrer"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+            <h3>An Example &rarr;</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              My resume here! Please share yours so we can plan on how to build
+              it :)
+            </p>
+          </a>
+
+          <a
+            href="https://www.namecheap.com/domains/registration/results/?domain=scottmorlan"
+            target="_blank nooppener noreferrer"
+            className={styles.card}
+          >
+            <h3>Domain Name &rarr;</h3>
+            <p>
+              I found we can buy the domain{" "}
+              <span style={{ color: "blue" }}>ScottMorlan.com</span> for just
+              $12 a year!
+            </p>
+          </a>
+
+          <a
+            href="https://startbootstrap.com/templates?showAngular=false&showVue=false&showPro=false"
+            className={styles.card}
+          >
+            <h3>Explore Templates &rarr;</h3>
+            <p>
+              I see you have a LinkedIn blog! Look at templates we can use and
+              modify to fit your needs
+            </p>
+          </a>
+
+          <a
+            href="https://thedigitalprojectmanager.com/personal/job-seeking/project-manager-portfolio-resume/"
+            className={styles.card}
+          >
+            <h3>Read Others &rarr;</h3>
+            <p>
+              Until our meeting next week, find out what other project managers
+              are doing to stand out!
             </p>
           </a>
         </div>
@@ -55,8 +73,12 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          Coded with ♥ by
+          <img
+            src="http://www.alfredorafael.com/wp-content/uploads/2019/02/myLogo.png"
+            alt="Vercel"
+            className={styles.logo}
+          />
         </a>
       </footer>
 
