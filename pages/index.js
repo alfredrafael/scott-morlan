@@ -23,7 +23,7 @@ export default function Home() {
         <div className={styles.grid}>
           <a
             href="https://alfredodeveloper.com/resume"
-            target="_blank nooppener noreferrer"
+            target="_blank"
             className={styles.card}
           >
             <h3>An Example &rarr;</h3>
@@ -35,7 +35,7 @@ export default function Home() {
 
           <a
             href="https://www.namecheap.com/domains/registration/results/?domain=scottmorlan"
-            target="_blank nooppener noreferrer"
+            target="_blank"
             className={styles.card}
           >
             <h3>Domain Name &rarr;</h3>
@@ -48,6 +48,7 @@ export default function Home() {
 
           <a
             href="https://startbootstrap.com/templates?showAngular=false&showVue=false&showPro=false"
+            target="_blank"
             className={styles.card}
           >
             <h3>Explore Templates &rarr;</h3>
@@ -59,6 +60,7 @@ export default function Home() {
 
           <a
             href="https://thedigitalprojectmanager.com/personal/job-seeking/project-manager-portfolio-resume/"
+            target="_blank"
             className={styles.card}
           >
             <h3>Read Others &rarr;</h3>
@@ -71,11 +73,7 @@ export default function Home() {
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a href="https://alfredodeveloper.com" target="_blank">
           Coded with ♥ by
           <img
             src="http://www.alfredorafael.com/wp-content/uploads/2019/02/myLogo.png"
