@@ -6,7 +6,10 @@ export default function Home() {
     <div className={styles.container}>
       <Head>
         <title>ScottMorlan.com</title>
-        <link rel="icon" href="/icons8-favicon.gif" />
+        <link
+          rel="icon"
+          href="https://www.alfredorafael.com/wp-content/uploads/2019/02/myLogo.png"
+        />
       </Head>
 
       <main>
